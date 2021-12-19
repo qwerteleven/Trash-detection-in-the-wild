@@ -51,37 +51,65 @@ with data augmentation
 
 # Detectron Mask
 
-|Accuracy by image|Accuracy faces predicted|
-|-----------------|------------------------|
+|Predicted|Predicted|
+|---------|---------|
 
-<img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/Accuracy_by_image.png" width="370">  | <img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/Faces_predicted_by_image.png" width="370"> 
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_C4_sombras.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_enterrados_C4.jpg" width="370"> 
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_parciamente_enterrados.jpg" width="370"> 
+
 
 
 # Detectron retinanet
 
-|Accuracy by TM|Accuracy by DNN|
-|--------------|---------------|
+|Predicted|Predicted|
+|---------|---------|
 
-<img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/accuracy_DNN.png" width="370">  | <img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/accuracy_TM.png" width="370"> 
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_ruido.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_sombras.jpg" width="370">
 
 
 
 
 # Intel DPT
-
  
-|Faces by image|Faces Predicted|
-|--------------|---------------|
+|GT|Predicted|
+|--|---------|
 
-<img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/Faces_by_image.png" width="370"> | <img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/Faces_predicted.png" width="370"> 
- 
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/DPT/anfi-gt.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/DPT/anfi.png" width="370">
+
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/DPT/pata_la_vaca-gt.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/DPT/pata_la_vaca.png" width="370">
+
+
+
    
 
 # YOLOv4 training
 
  
-|Faces by TM|Faces DNN|
-|-----------|---------|
+|Training NOT DA|Trainig DA|
+|---------------|----------|
 
-<img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/predicted_face_TM.png" width="370"> | <img src="https://github.com/qwerteleven/Face-Detection-in-the-Wild/blob/main/grafics/Predicted_face_DNN.png" width="370"> 
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-train.png" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-train-da.png" width="370">
+
+
+## Some Results
+
+
+
+|Predicted NOT DA|Predicted DA|
+|----------------|------------|
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-cambio-iluminacion.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-cambio-iluminacion-da.jpg" width="370">
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-huellas.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-huellas-da.jpg" width="370">
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objeto-enterrado.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objeto-enterrado-da.jpg" width="370">
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objeto-ocluido.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objeto-ocluido-da.jpg" width="370">
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objetos-sobre-arena.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-objetos-sobre-arena-da.jpg" width="370">
+
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-sombra.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/yolo-train/yolo-sombra-da.jpg" width="370">
 
