@@ -55,8 +55,8 @@ with data augmentation
 |---------|---------|
 
 
-<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_C4_sombras.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_enterrados_C4.jpg" width="370"> 
-<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_parciamente_enterrados.jpg" width="370"> 
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_C4_sombras.JPG" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_enterrados_C4.JPG" width="370"> 
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-mask/mask_rcnn_objetos_parciamente_enterrados.JPG" width="370"> 
 
 
 
@@ -66,7 +66,7 @@ with data augmentation
 |---------|---------|
 
 
-<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_ruido.jpg" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_sombras.jpg" width="370">
+<img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_ruido.JPG" width="370">  <img src="https://github.com/qwerteleven/Trash-detection-in-the-wild/blob/main/assets/detectron-retinanet/retinanet_sombras.JPG" width="370">
 
 
 
